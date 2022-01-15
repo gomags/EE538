@@ -1,1 +1,1 @@
-# EE538
+# EE538 repo for coursework and assignments
