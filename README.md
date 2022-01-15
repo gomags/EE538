@@ -1,1 +1,2 @@
-### EE538 repo for coursework and assignments
+### EE538 - Introduction to Computational Programming for Engineers 
+####Repo for coursework and assignments
