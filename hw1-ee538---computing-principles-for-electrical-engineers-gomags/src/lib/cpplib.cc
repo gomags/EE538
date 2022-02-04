@@ -41,13 +41,13 @@ std::vector<int> CPPLib::Flatten3DVector(const std::vector< std::vector< std::ve
 int CPPLib::climbStairs(int n){
     // Please fill up this function.
     static int temp = 0;
-    if(n == 0 && temp == 0)
-    return 0;
-    else if(n>=45)
+    if((n>=45 || n<0) && temp==0)
     return -1;
+    else if(n == 0 && temp == 0)
+    return 0;
     else if(n == 0 && temp != 0)
     return 1;
-    else if (n == -1)
+    else if (n == -1 && temp!=0)
     return 0;
     else{
         temp++;
