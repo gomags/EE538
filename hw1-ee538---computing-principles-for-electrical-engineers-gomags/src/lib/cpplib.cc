@@ -43,6 +43,8 @@ int CPPLib::climbStairs(int n){
     static int temp = 0;
     if(n == 0 && temp == 0)
     return 0;
+    else if(n>=45)
+    return -1;
     else if(n == 0 && temp != 0)
     return 1;
     else if (n == -1)

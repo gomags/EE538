@@ -47,11 +47,21 @@ TEST(Q2_Student5, FindAverage) {
   EXPECT_EQ(cpplib.FindAverage(test_vector), 0.0);
 }
 
+
 TEST(Q2_Student6, FindAverage) {
   std::vector<int> test_vector;  
   CPPLib cpplib;
 
   test_vector = {2000, -2000, -3000, 3000, 7, 19, -27};
   EXPECT_NEAR(cpplib.FindAverage(test_vector), -0.14, 0.01);
+
+}
+
+TEST(Q2_Student7, FindAverage) {
+  std::vector<int> test_vector;  
+  CPPLib cpplib;
+
+  test_vector = {INT16_MAX,INT16_MAX,INT16_MAX};
+  EXPECT_NEAR(cpplib.FindAverage(test_vector), INT16_MAX, 1);
 
 }

@@ -13,7 +13,7 @@
 
 Create an account on GitHub and Stack Overflow and paste the link to your profile.
 
-GitHub profile link:  https://github.com/gomags
+GitHub profile link: https://github.com/gomags
 
 Stack Overflow profile link: https://stackoverflow.com/users/18013001/gopi-maganti
 
@@ -39,7 +39,7 @@ void Example1(int n) {
 }
 ```
 
-Answer: O(log(n))
+Answer: **O(log(n))**
 
 ```cpp
 void Example2(int n) {
@@ -54,7 +54,7 @@ void Example2(int n) {
 }
 ```
 
-Answer: O(n*(log(n)^2))
+Answer: **O(n*(log(n)^2))**
 
 ```cpp
 void Example3(int n) {
@@ -67,7 +67,7 @@ void Example3(int n) {
 
 Hint: Note the ```j < i*i*i``` in the inner loop and compute the cube sequence to get the final result.
 
-Answer: O(n^4)
+Answer: **O(n^4)**
 
 ```cpp
 int Example4(int n) {
@@ -85,7 +85,7 @@ int Example4(int n) {
 
 Hint: Note the ```i /= 3``` in the outer loop and compute the geometric sequence to get the final result.
 
-Answer: O(n*log(n))
+Answer: **O(n*log(n))**
 
 ## Question 4 (10 Points. Easy)
 
@@ -129,7 +129,7 @@ bazel test tests:q6_student_test
 ```
 What is the worst case runtime complexity of your implementation?
 
-Answer: o(n^3)
+Answer: **O(n^3)**
 
 ## Question 7 (30 Points. Medium)
 
@@ -155,4 +155,4 @@ bazel test tests:q7_student_test
 **Hint**: Try to write a recursive relationship.
 What is the complexity of your implementation?
 
-Answer: O(2^n)
+Answer: **O(2^n)**

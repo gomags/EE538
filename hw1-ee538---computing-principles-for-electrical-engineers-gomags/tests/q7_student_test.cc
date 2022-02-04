@@ -26,3 +26,10 @@ TEST(Q7_Student2, ReturnIntro) {
   int actual = cpplib.climbStairs(5);
   EXPECT_EQ(actual, expected);
 }
+
+TEST(Q7_Student2, ReturnIntro) {
+  CPPLib cpplib;
+  int expected = -1;
+  int actual = cpplib.climbStairs(45);
+  EXPECT_EQ(actual, expected);
+}
